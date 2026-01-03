@@ -3,9 +3,9 @@
 # Coupon Acceptance Analysis
 
 ## Overview
-This project explores the factors that influence whether drivers accept coupons while driving, with a particular focus on **Coffee House** and **Bar** coupons. Using exploratory data analysis (EDA) and subgroup comparisons, the analysis investigates how **behavioral context, demographics, travel constraints, and social factors** affect coupon acceptance.
+This project explores the factors that influence whether drivers accept coupons while driving, with a particular focus on **Coffee House** coupons. 
 
-The dataset contains information about drivers’ destinations, passengers, income, age, frequency of visiting certain venues, weather conditions, and whether the offered coupon was accepted.
+The dataset contains information about drivers’ destinations, passengers, income, age, and whether the offered coupon was accepted.
 
 ---
 
@@ -20,7 +20,7 @@ The primary goals of this project are to:
   - Passenger type (alone, adult passenger, child passenger)
   - Gender
   - Destination
-  - Temperature
+  - Income
 - Form behavioral hypotheses about drivers most likely to accept coupons
 
 ---
@@ -59,7 +59,6 @@ The analysis follows a structured exploratory workflow:
 
 ### 3. Subgroup Comparisons
 Examples include:
-- Bar coupon acceptance by bar visitation frequency
 - Coffee House acceptance by travel time
 - Coffee House acceptance by passenger type
 - Acceptance differences by gender and destination
@@ -71,14 +70,12 @@ Patterns observed in the data were used to develop behavioral hypotheses about c
 ---
 
 ## Key Findings
-- Coupon acceptance is **strongly associated with existing behavior** (e.g., frequent bar or restaurant visits).
 - **Proximity matters**: acceptance decreases as required travel time increases.
 - Coffee House coupons are more likely to be accepted when drivers:
-  - Are traveling alone
+  - Are traveling with an adult passenger
   - Have no urgent destination
-  - Experience warmer temperatures
+  - Have a lower income bracket
 - Social context (presence of children, marital status) influences acceptance behavior.
-- Coupons tend to **reinforce existing habits** rather than change behavior.
 
 ---
 
