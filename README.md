@@ -87,3 +87,10 @@ Patterns observed in the data were used to develop behavioral hypotheses about c
 ---
 
 ## Repository Structure
+├── data/
+│ └── coupons.csv
+├── notebooks/
+│ └── exploratory_analysis.ipynb
+├── figures/
+│ └── plots and charts
+├── README.md
