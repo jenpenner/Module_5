@@ -31,14 +31,12 @@ The primary goals of this project are to:
 - **Key columns include:**
   - `coupon` – type of coupon offered
   - `Y` – coupon accepted (1) or not accepted (0)
-  - `temperature`
   - `destination`
   - `passanger`
   - `gender`
   - `age`
   - `income`
   - `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min`
-  - Venue frequency variables (e.g., `Bar`, `RestaurantLessThan20`)
 
 ---
 
